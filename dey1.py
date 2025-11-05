@@ -1,0 +1,10 @@
+A = str(input("inter your name : "))
+B = int(input("inter your age : "))
+C = str(input(" inter your email : "))
+D = input("inter your phone number :")
+
+print("Nama : ",A)
+print("Age : ",B)
+print("Email : ",C.lower())
+D = input("inter your phone number :")
+print("Phone number:", D.replace("-", "").replace(" ", ""))
